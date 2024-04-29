@@ -3,13 +3,15 @@ import styled from 'styled-components'
 const Header = styled.header`
   background-color: var(--cor-secundaria);
   color: var(--cor-principal);
-  text-align: center;
   padding: 24px 0;
+`
+const Title = styled.h1`
+  text-align: center;
 `
 function Cabecalho() {
   return (
     <Header>
-      <h1>Jobs HUB</h1>
+      <Title>EBAC Jobs</Title>
     </Header>
   )
 }

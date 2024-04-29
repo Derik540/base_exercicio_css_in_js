@@ -3,6 +3,7 @@ import styled from 'styled-components'
 const Form = styled.form`
   height: 360px;
   width: 100%;
+  justify-content: center;
   background-image: url('https://cdn.pixabay.com/photo/2018/08/10/15/45/woman-3597101_1280.jpg');
   background-size: cover;
   position: relative;
@@ -25,7 +26,6 @@ const Form = styled.form`
     padding: 24px 0;
   }
 `
-
 const Container = styled.div`
   position: relative;
   color: #eee;
